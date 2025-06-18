@@ -21,6 +21,7 @@ public class StorageService {
         init();
     }
 
+
     private void init() {
         Product cheese = new SimpleProduct(UUID.randomUUID(), "Cheese", 150);
         Product napkins = new FixPriceProduct(UUID.randomUUID(), "Napkins");
