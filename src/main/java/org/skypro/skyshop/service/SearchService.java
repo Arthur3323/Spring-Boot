@@ -1,13 +1,9 @@
 package org.skypro.skyshop.service;
 
-import org.skypro.skyshop.model.article.Article;
-import org.skypro.skyshop.model.product.Product;
 import org.skypro.skyshop.model.search.SearchResult;
 import org.springframework.stereotype.Service;
-
-import java.util.ArrayList;
 import java.util.Collection;
-import java.util.List;
+
 
 
 @Service
@@ -20,7 +16,6 @@ public class SearchService {
     public SearchService(StorageService storageService) {
         this.storageService = storageService;
     }
-
 
 
     public Collection<SearchResult> search(String pattern) {
