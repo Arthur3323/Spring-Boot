@@ -1,7 +1,6 @@
 package org.skypro.skyshop.model.product;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-
 import java.util.UUID;
 
 public class FixPriceProduct extends Product {
